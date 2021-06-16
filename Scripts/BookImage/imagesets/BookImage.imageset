@@ -1,0 +1,26 @@
+ImageSetClass {
+ Name "BookImage"
+ RefSize 1405 171
+ Textures {
+  ImageSetTextureClass {
+   mpix 1
+   path "{8938256DD4C9D506}imagesets/NamalskBigLogo.edds"
+  }
+ }
+ Images {
+  ImageSetDefClass logo_big {
+   Name "logo_big"
+   Pos 0 0
+   Size 1405 173
+   Flags 0
+  }
+  ImageSetDefClass logo_small {
+   Name "logo_small"
+   Pos 873 5
+   Size 528 164
+   Flags 0
+  }
+ }
+ Groups {
+ }
+}
