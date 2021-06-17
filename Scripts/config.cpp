@@ -150,7 +150,7 @@ class CfgSoundShaders
 {
 	class Main_Music_Menu_SoundShader
 	{
-		samples[] = {{"THaNServer\LoadingMusic\MainMenu.ogg",1}};
+		samples[] = {{"THaNServer\Scripts\LoadingMusic\MainMenu.ogg",1}};
 		volume = 0.70794576;
 	};
 };
