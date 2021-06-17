@@ -1,0 +1,11 @@
+[
+    {
+        "MapName": "default",
+        "Path":
+        [
+            "THaNServer/Scripts/LoadingScreen/LoadingMustang.edds",
+			"THaNServer/Scripts/LoadingScreen/LoadingScreen1.edds"
+			
+        ]
+    }
+]

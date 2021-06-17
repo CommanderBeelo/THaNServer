@@ -1,7 +1,7 @@
 //! Where are the files located
-const string LOADING_SCREENS_PATH 	= "THaNServer/Scripts/LoadingImages.json";
-const string LOADING_MESSAGES_PATH 	= "THaNServer/Scripts/LoadingMessages.json";
-const string LOADING_SCREEN_LOGO 	= "THaNServer/Scripts/NamalskBigLogo.edds";
+const string LOADING_SCREENS_PATH 	= "THaNServer/Scripts/LoadingScreen/LoadingImages.json";
+const string LOADING_MESSAGES_PATH 	= "THaNServer/Scripts/LoadingScreen/LoadingMessages.json";
+const string LOADING_SCREEN_LOGO 	= "THaNServer/Scripts/LoadingScreen/NamalskBigLogo.edds";
 									//! ModName/Path/File
 
 //! true  = yes
