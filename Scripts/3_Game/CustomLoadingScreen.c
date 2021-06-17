@@ -3,7 +3,7 @@ const string LOADING_SCREENS_PATH 	= "THaNServer/Scripts/LoadingScreen/LoadingIm
 const string LOADING_MESSAGES_PATH 	= "THaNServer/Scripts/LoadingScreen/LoadingMessages.json";
 const string LOADING_SCREEN_LOGO 	= "THaNServer/Scripts/LoadingScreen/NamalskBigLogo.edds";
 									//! ModName/Path/File
-
+//github
 //! true  = yes
 //! false = no
 const bool UseCustomLoadingPictures = true;
