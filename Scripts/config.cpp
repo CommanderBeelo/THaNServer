@@ -8831,7 +8831,7 @@ class cfgVehicles
 		displayName = "Identifier Patch - THaNServer";
 		hiddenSelectionsTextures[] = 
 		{
-			"THaNServer\Scripts\CustomPatchesMVS\patch_THaTB2.paa"
+			"THaNServer\Scripts\CustomPatchesMVS\patch_THaTB5.paa"
 		};
 	};
 };
