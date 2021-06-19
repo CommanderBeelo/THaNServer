@@ -1,23 +1,17 @@
 ImageSetClass {
  Name "BookImage"
- RefSize 1405 171
+ RefSize 429 176
  Textures {
   ImageSetTextureClass {
    mpix 1
-   path "{8938256DD4C9D506}imagesets/NamalskBigLogo.edds"
+   path "{9B30173782045F11}imagesets/BeelosWatermark.edds"
   }
  }
  Images {
-  ImageSetDefClass logo_big {
-   Name "logo_big"
+  ImageSetDefClass thatb_logo {
+   Name "thatb_logo"
    Pos 0 0
-   Size 1405 173
-   Flags 0
-  }
-  ImageSetDefClass logo_small {
-   Name "logo_small"
-   Pos 873 5
-   Size 528 164
+   Size 429 176
    Flags 0
   }
  }

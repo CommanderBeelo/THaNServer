@@ -8829,6 +8829,7 @@ class cfgVehicles
 	{
 		scope = 2;
 		displayName = "Identifier Patch - THaNServer";
+		attachments[] = {"Belt_Left","VestGrenadeA","VestPouch","modular_pouch_2","modular_pouch_4","modular_pouch_5","modular_pouch_6","patch_01"};
 		hiddenSelectionsTextures[] = 
 		{
 			"THaNServer\Scripts\CustomPatchesMVS\patch_THaTB5.paa"
