@@ -1,0 +1,10 @@
+name = "THaNServer";
+picture = "THaNServer/Scripts/bookimage/imagesets/beeloswatermark.edds";
+logoSmall = "THaNServer/Scripts/bookimage/imagesets/beeloswatermark.edds";
+logo = "THaNServer/Scripts/bookimage/imagesets/beeloswatermark.edds";
+logoOver = "THaNServer/Scripts/bookimage/imagesets/beeloswatermark.edds";
+action = "https://discord.gg/hFGBHtyZJj";
+tooltip = "The Horror at Namalsk Server Mod";
+overview = "Big Dick Energy for those that play this server.";
+author = "Commander Beelo";
+hidePicture = 0;
