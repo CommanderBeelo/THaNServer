@@ -22,7 +22,8 @@ class CfgPatches
 			"DZ_Characters",
 			"JPC_vest",
 			"DZ_Gear_Containers",
-			"DayZExpansion_Scripts"
+			"DayZExpansion_Scripts",
+			"CDAJ_Items"
 		};
 	};
 	class THaNServer_BookImage
@@ -118,6 +119,8 @@ class CfgSoundShaders
 };
 class cfgVehicles
 {
+	class Container_Base;
+	class Inventory_Base;
 	class mk5_vest_base;
 	class MMG_MK_V_Armor_Burlap: mk5_vest_base
 	{
@@ -194,81 +197,60 @@ class cfgVehicles
 			"\THaNServer\scripts\textures\canna2.paa"
 		};
 	};
+	class Morphine: Container_Base
+    {
+        inventorySlot[]+=
+        {
+			"CDAJ_Morphine",
+			"CDAJ_EpinephrineA",
+            "CDAJ_EpinephrineB",
+            "morphine",
+            "epinephrine"
+        };
+    };
+    class Epinephrine: Container_Base
+    {
+        inventorySlot[]+=
+        {
+			"CDAJ_Morphine",
+			"CDAJ_EpinephrineA",
+            "CDAJ_EpinephrineB",
+            "morphine",
+            "epinephrine"
+        };
+    };
+    class AntiChemInjector: Container_Base
+    {
+        inventorySlot[]+=
+        {
+			"CDAJ_Morphine",
+			"CDAJ_EpinephrineA",
+            "CDAJ_EpinephrineB",
+            "morphine",
+            "epinephrine"
+        };
+    };
+	class dzn_vega7_enzyme: Inventory_Base
+    {
+        inventorySlot[]+=
+        {
+            "CDAJ_Morphine",
+			"CDAJ_EpinephrineA",
+            "CDAJ_EpinephrineB",
+            "morphine",
+            "epinephrine"
+        };
+    };
+    class dzn_oxygenated_blood: Inventory_Base
+    {
+        inventorySlot[]+=
+        {
+            "CDAJ_Morphine",
+			"CDAJ_EpinephrineA",
+            "CDAJ_EpinephrineB",
+            "morphine",
+            "epinephrine"
+        };
+    };
 	
-	
-	//Arm Patches
-		
-	class mmg_patch_base;
-	class MMG_patch_admin: mmg_patch_base
-	{
-		scope=2;
-		displayName="THaNServer Admin Patch";
-		visibilityModifier=0.85000002;
-		inventorySlot[] = {"mmg_patch", "armband"};
-		hiddenSelectionsTextures[]=
-		{
-			"\THaNServer\scripts\textures\patches\patch_thanadmin.paa",
-			"\THaNServer\scripts\textures\patches\MVS_Armband_co.paa"
-		};
-	};
-	class MMG_patch_deadsun: mmg_patch_base
-	{
-		scope=2;
-		displayName="Deadsun's Patch";
-		visibilityModifier=0.85000002;
-		hiddenSelectionsTextures[]=
-		{
-			"\THaNServer\scripts\textures\patches\patch_deadsun.paa"
-		};
-	};
-	class MMG_patch_infini: mmg_patch_base
-	{
-		scope=2;
-		displayName="Deadsun's Patch";
-		visibilityModifier=0.85000002;
-		hiddenSelectionsTextures[]=
-		{
-			"\THaNServer\scripts\textures\patches\patch_infini.paa"
-		};
-	};
-	class MMG_patch_intgp: mmg_patch_base
-	{
-		scope=2;
-		displayName="Deadsun's Patch";
-		visibilityModifier=0.85000002;
-		hiddenSelectionsTextures[]=
-		{
-			"\THaNServer\scripts\textures\patches\patch_intgp.paa"
-		};
-	};
-	class MMG_patch_intgp2: mmg_patch_base
-	{
-		scope=2;
-		displayName="Deadsun's Patch";
-		visibilityModifier=0.85000002;
-		hiddenSelectionsTextures[]=
-		{
-			"\THaNServer\scripts\textures\patches\patch_intgp2.paa"
-		};
-	};
-	class MMG_patch_potleaf: mmg_patch_base
-	{
-		scope=2;
-		displayName="Deadsun's Patch";
-		visibilityModifier=0.85000002;
-		hiddenSelectionsTextures[]=
-		{
-			"\THaNServer\scripts\textures\patches\patch_potleaf.paa"
-		};
-	};
-	class MMG_patch_psylocke: mmg_patch_base
-	{
-		scope=2;
-		displayName="Deadsun's Patch";
-		visibilityModifier=0.85000002;
-		hiddenSelectionsTextures[]=
-		{
-			"\THaNServer\scripts\textures\patches\patch_psylocke.paa"
-		};
-	};
 };
