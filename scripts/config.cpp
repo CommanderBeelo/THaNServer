@@ -26,18 +26,6 @@ class CfgPatches
 			"namalsk_survival"
 		};
 	};
-
-	class MainMenuMusicMod
-	{
-		units[]={};
-		weapons[]={};
-		requiredVersion=1;
-		requiredAddons[]=
-		{
-			
-			
-		};
-	};
 };
 ///////////////////////////////////////////////
 class CfgMods
