@@ -8,34 +8,25 @@
 
 class CfgPatches
 {
-    class THaNServer_ExpansionLoadingScreen
+    class THaNServer
     {
         units[] = {};
         weapons[] = {};
         requiredVersion = 0.1;
 		requiredAddons[]=
 		{
+			"DayZExpansion_Scripts",
 			"DZ_Data",
 			"DZ_Characters_Vests",
 			"DZ_Characters_Backpacks",
 			"DZ_Scripts",
 			"DZ_Characters",
 			"JPC_vest",
-			"DZ_Gear_Containers",
-			"DayZExpansion_Scripts",
-			"CDAJ_Items"
+			"mmg_storage",
+			"namalsk_survival"
 		};
 	};
-	class THaNServer_BookImage
-    {
-        units[]={};
-        weapons[]={};
-        requiredVersion=0.1;
-        requiredAddons[]=
-        {
-            "DayZExpansion_Scripts"
-        };
-    };
+
 	class MainMenuMusicMod
 	{
 		units[]={};
@@ -43,12 +34,8 @@ class CfgPatches
 		requiredVersion=1;
 		requiredAddons[]=
 		{
-			"DZ_Data",
-			"DZ_Gear_Consumables",
-			"DZ_Vehicles_Wheeled",
-			"DZ_Structures_Residential",
-			"DZ_Sounds_Effects",
-			"DZ_Sounds_Weapons"
+			
+			
 		};
 	};
 };
@@ -113,7 +100,7 @@ class CfgSoundShaders
 {
 	class Main_Music_Menu_SoundShader
 	{
-		samples[] = {{"THaNServer\Scripts\LoadingMusic\mainmenu2.ogg",1}};
+		samples[] = {{"THaNServer\Scripts\LoadingMusic\mainmenu3.ogg",1}};
 		volume = 1.00000000;
 	};
 };
@@ -197,7 +184,7 @@ class cfgVehicles
 			"\THaNServer\scripts\textures\canna2.paa"
 		};
 	};
-	class Morphine: Container_Base
+	class Morphine: Inventory_Base
     {
         inventorySlot[]+=
         {
@@ -208,7 +195,7 @@ class cfgVehicles
             "epinephrine"
         };
     };
-    class Epinephrine: Container_Base
+    class Epinephrine: Inventory_Base
     {
         inventorySlot[]+=
         {
@@ -219,7 +206,7 @@ class cfgVehicles
             "epinephrine"
         };
     };
-    class AntiChemInjector: Container_Base
+    class AntiChemInjector: Inventory_Base
     {
         inventorySlot[]+=
         {
@@ -252,5 +239,4 @@ class cfgVehicles
             "epinephrine"
         };
     };
-	
 };
