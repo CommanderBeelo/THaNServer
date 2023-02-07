@@ -23,7 +23,8 @@ class CfgPatches
 			"DZ_Characters",
 			"JPC_vest",
 			"mmg_storage",
-			"namalsk_survival"
+			"namalsk_survival",
+			"CDAJ_Items"
 		};
 	};
 };
@@ -227,4 +228,22 @@ class cfgVehicles
             "epinephrine"
         };
     };
+	class WaterBottle;
+	class ExpansionMilkBottle: WaterBottle
+	{
+		varWetInit=3;
+		varWetMax=3;
+	};
+	class Edible_Base;
+	class Expansion_FoodBase: Edible_Base
+	{
+		varWetInit=3;
+		varWetMax=3;
+	};
+	class Canteen;
+	class JPC_Bottle_Base: Canteen
+	{
+		varWetInit=3;
+		varWetMax=3;
+	};
 };
