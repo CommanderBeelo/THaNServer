@@ -13,7 +13,7 @@ class mmg_solo_locker_purple: mmg_solo_locker_base {};
 class mmg_solo_locker_medic: mmg_solo_locker_base {};
 class mmg_solo_locker_green: mmg_solo_locker_base {};
 class mmg_old_safe_green: mmg_old_safe_base {};
-class mmg_old_safe_grey: mmg_old_safe_base
+class mmg_old_safe_grey: mmg_old_safe_base {};
 class mmg_lockable_gun_rack_grey: mmg_lockable_gun_rack_base {};
 class mmg_equipment_locker_green: mmg_locker_base {};
 class mmg_equipment_locker_black: mmg_locker_base {};
