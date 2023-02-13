@@ -61,16 +61,23 @@ class CfgMods
 				value="";
 				files[]=
 				{
-					"THaNServer/Scripts/3_Game"
+					"THaNServer/scripts/3_Game"
 					//! Mod name/Scripts/3_Game
 				};
 			};
+			class worldScriptModule
+            {
+                files[]=
+                {
+                    "THaNServer/scripts/4_World"
+                };
+            };
 			class missionScriptModule
 			{
 				value = "";
 				files[] = 
 				{
-					"THaNServer\scripts\5_Mission"
+					"THaNServer/scripts/5_Mission"
 				};
 			};
 		};
