@@ -1,30 +1,19 @@
 [
     {
         "MapName": "default",
-        "Path":
-        [
-            "THaNServer/Scripts/LoadingScreen/Deadsun.edds",
-            "THaNServer/Scripts/LoadingScreen/Zetiva.edds"
-        ]
+        "Path":[]
     },
     {
         "MapName": "namalsk",
         "Path":
         [
-            "THaNServer/Scripts/LoadingScreen/Namalsk1.edds",
-			"THaNServer/Scripts/LoadingScreen/Namalsk2.edds",
-			"THaNServer/Scripts/LoadingScreen/Namalsk3.edds",
-            "THaNServer/Scripts/LoadingScreen/Namalsk4.edds"
+            "THaNServer/Scripts/LoadingScreen/NewNamalsk.edds",
+			"THaNServer/Scripts/LoadingScreen/NewNamalsk2.edds",
+			"THaNServer/Scripts/LoadingScreen/NewNamalsk3.edds"
         ]
     },
     {
         "MapName": "chiemsee",
-        "Path":
-        [
-            "THaNServer/Scripts/LoadingScreen/Chiemsee1.edds",
-			"THaNServer/Scripts/LoadingScreen/Chiemsee2.edds",
-			"THaNServer/Scripts/LoadingScreen/Chiemsee3.edds",
-            "THaNServer/Scripts/LoadingScreen/Chiemsee4.edds"
-        ]
+        "Path":[]
     }
 ]

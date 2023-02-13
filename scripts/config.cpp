@@ -19,6 +19,7 @@ class CfgPatches
 			"DZ_Data",
 			"DZ_Characters_Vests",
 			"DZ_Characters_Backpacks",
+			"DZ_Characters_Headgear",
 			"DZ_Scripts",
 			"DZ_Characters",
 			"JPC_vest",
@@ -98,6 +99,8 @@ class cfgVehicles
 	class Container_Base;
 	class Inventory_Base;
 	class mk5_vest_base;
+	class Clothing_Base;
+	class Switchable_Base;
 	class MMG_MK_V_Armor_Burlap: mk5_vest_base
 	{
 		scope = 2;
@@ -245,5 +248,21 @@ class cfgVehicles
 	{
 		varWetInit=3;
 		varWetMax=3;
+	};
+	class Clothing: Clothing_Base
+	{
+	};
+	class Headtorch_ColorBase: Switchable_Base
+	{
+		inventorySlot[]+=
+		{
+			"Eyewear",
+			"Headgear"
+		};
+		itemInfo[]=
+		{
+			"Clothing",
+			"Headgear"
+		};
 	};
 };

@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{644BC4E688DA1F36}NewNamalsk2.edds"
+ Author "desktop-qqgrcr6"
+ ChangeDate -1633505715
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "NewNamalsk2.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}
