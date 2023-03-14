@@ -14,7 +14,7 @@ modded class MissionMainMenu
         StopMusic();
     }
 	
-	void PlayMusic()
+	override void PlayMusic()
 	{
 		if ( !m_MenuMusic )
 		{

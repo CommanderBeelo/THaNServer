@@ -273,3 +273,23 @@ class cfgVehicles
 		};
 	};
 };
+
+class cfgMagazines
+{
+	class DefaultMagazine;
+	class Magazine_Base
+	{
+		inventorySlot[]+= {
+			"cs_magazine1",
+			"cs_magazine2",
+			"cs_magazine3",
+			"cs_magazine4",
+			"magazine",
+			"magazine2",
+			"magazine3",
+			"magazine4",
+			"magazine5",
+			"magazine6"
+		};
+	};
+};
