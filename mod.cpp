@@ -1,8 +1,8 @@
 name = "THaNServer";
-picture = "THaNServer/Scripts/bookimage/imagesets/beeloswatermark.edds";
-logoSmall = "THaNServer/Scripts/bookimage/imagesets/beeloswatermark.edds";
-logo = "THaNServer/Scripts/bookimage/imagesets/beeloswatermark.edds";
-logoOver = "THaNServer/Scripts/bookimage/imagesets/beeloswatermark.edds";
+picture = "THaNServer/scripts/textures/Canna.edds";
+logoSmall = "THaNServer/scripts/textures/Canna.edds";
+logo = "THaNServer/scripts/textures/Canna.edds";
+logoOver = "THaNServer/scripts/textures/Canna.edds";
 action = "https://discord.gg/hFGBHtyZJj";
 tooltip = "The Horror at Namalsk Server Mod";
 overview = "Big Dick Energy for those that play this server.";

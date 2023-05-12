@@ -29,13 +29,13 @@ class CfgPatches
 		};
 	};
 };
-///////////////////////////////////////////////
+
 class CfgMods
 {
 	class THaNServer
 	{
 	    dir = "THaNServer"; //! Name of the mod
-		picture = "THaNServer/Scripts/bookimage/imagesets/beeloswatermark.edds";
+		picture = "THaNServer/scripts/textures/Canna.edds";
 	    action = "";
 	    hideName = 0;
 	    hidePicture = 0;
@@ -272,24 +272,12 @@ class cfgVehicles
 			"Headgear"
 		};
 	};
-};
-
-class cfgMagazines
-{
-	class DefaultMagazine;
-	class Magazine_Base
+	class Expansion_GraveBase: Inventory_Base
+    {
+        attachments[] += {"LEHS"};
+    };
+	class ExpansionPersonalStorageContainer: Container_Base
 	{
-		inventorySlot[]+= {
-			"cs_magazine1",
-			"cs_magazine2",
-			"cs_magazine3",
-			"cs_magazine4",
-			"magazine",
-			"magazine2",
-			"magazine3",
-			"magazine4",
-			"magazine5",
-			"magazine6"
-		};
-	};
+		attachments[] += {"LEHS"};
+    };
 };

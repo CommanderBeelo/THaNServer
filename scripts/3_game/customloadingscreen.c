@@ -1,3 +1,4 @@
+#ifdef DAYZ_1_20
 //! Where are the files located
 const string LOADING_SCREENS_PATH 	= "THaNServer/Scripts/LoadingScreen/LoadingImages.json";
 const string LOADING_MESSAGES_PATH 	= "THaNServer/Scripts/LoadingScreen/LoadingMessages.json";
@@ -95,3 +96,4 @@ modded class LoginTimeBase
 		}
 	};
 };
+#endif
