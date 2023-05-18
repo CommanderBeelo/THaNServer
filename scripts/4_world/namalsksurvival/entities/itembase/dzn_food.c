@@ -1,18 +1,18 @@
-class ExpansionMilkBottle: WaterBottle
+modded class ExpansionMilkBottle : WaterBottle
 {
 	override bool CanHaveWetness()
 	{
 		return true;
 	}
 };
-class Expansion_FoodBase: Edible_Base
+modded class Expansion_FoodBase : Edible_Base
 {
     override bool CanHaveWetness()
 	{
 		return true;
 	}
 };
-    class JPC_Bottle_Base: Canteen
+modded class JPC_Bottle_Base : Canteen
 {
     override bool CanHaveWetness()
 	{
