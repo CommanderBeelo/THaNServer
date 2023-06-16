@@ -35,7 +35,7 @@ class CfgMods
 	class THaNServer
 	{
 	    dir = "THaNServer"; //! Name of the mod
-		picture = "THaNServer/scripts/textures/Canna.edds";
+		picture = "THaNServer/Scripts/textures/Canna.edds";
 	    action = "";
 	    hideName = 0;
 	    hidePicture = 0;
@@ -61,7 +61,7 @@ class CfgMods
 				value="";
 				files[]=
 				{
-					"THaNServer/scripts/3_Game"
+					"THaNServer/Scripts/3_Game"
 					//! Mod name/Scripts/3_Game
 				};
 			};
@@ -69,7 +69,7 @@ class CfgMods
             {
                 files[]=
                 {
-                    "THaNServer/scripts/4_World"
+                    "THaNServer/Scripts/4_World"
                 };
             };
 			class missionScriptModule
@@ -77,7 +77,7 @@ class CfgMods
 				value = "";
 				files[] = 
 				{
-					"THaNServer/scripts/5_Mission"
+					"THaNServer/Scripts/5_Mission"
 				};
 			};
 		};
@@ -97,7 +97,7 @@ class CfgSoundShaders
 {
 	class Main_Music_Menu_SoundShader
 	{
-		samples[] = {{"THaNServer\Scripts\LoadingMusic\mainmenu3.ogg",1}};
+		samples[] = {{"THaNServer\Music\mainmenu3.ogg",1}};
 		volume = 1.00000000;
 	};
 };
@@ -114,9 +114,9 @@ class cfgVehicles
 		displayName = "Dankest MK5 Armor";
 		hiddenSelectionsTextures[] = 
 		{
-			"\THaNServer\scripts\textures\mk5_vest_burlap.paa",
-			"\THaNServer\scripts\textures\mk5_vest_burlap.paa",
-			"\THaNServer\scripts\textures\mk5_vest_burlap.paa"
+			"\THaNServer\Scripts\textures\mk5_vest_burlap.paa",
+			"\THaNServer\Scripts\textures\mk5_vest_burlap.paa",
+			"\THaNServer\Scripts\textures\mk5_vest_burlap.paa"
 		};
 	};
 	class MMG_MK_V_Armor_420: mk5_vest_base
@@ -125,9 +125,9 @@ class cfgVehicles
 		displayName = "Dankest MK5 Armor";
 		hiddenSelectionsTextures[] = 
 		{
-			"\THaNServer\scripts\textures\mk5_vest_dope.paa",
-			"\THaNServer\scripts\textures\mk5_vest_dope.paa",
-			"\THaNServer\scripts\textures\mk5_vest_dope.paa"
+			"\THaNServer\Scripts\textures\mk5_vest_dope.paa",
+			"\THaNServer\Scripts\textures\mk5_vest_dope.paa",
+			"\THaNServer\Scripts\textures\mk5_vest_dope.paa"
 		};
 	};
 	
@@ -138,9 +138,9 @@ class cfgVehicles
 		displayName="Dankest Combat Shirt";
 		hiddenSelectionsTextures[] = 
 		{
-			"\THaNServer\scripts\textures\canna2.paa",
-			"\THaNServer\scripts\textures\canna2.paa",
-			"\THaNServer\scripts\textures\canna2.paa"
+			"\THaNServer\Scripts\textures\canna2.paa",
+			"\THaNServer\Scripts\textures\canna2.paa",
+			"\THaNServer\Scripts\textures\canna2.paa"
 		};
 	};
 	
@@ -151,9 +151,9 @@ class cfgVehicles
 		displayName="Combat Ready Weed Pants";
 		hiddenSelectionsTextures[] = 
 		{
-			"\THaNServer\scripts\textures\canna2.paa",
-			"\THaNServer\scripts\textures\canna2.paa",
-			"\THaNServer\scripts\textures\canna2.paa"
+			"\THaNServer\Scripts\textures\canna2.paa",
+			"\THaNServer\Scripts\textures\canna2.paa",
+			"\THaNServer\Scripts\textures\canna2.paa"
 		};
 	};
 	
@@ -164,9 +164,9 @@ class cfgVehicles
 		displayName="Dankest Gloves";
 		hiddenSelectionsTextures[] = 
 		{
-			"\THaNServer\scripts\textures\canna2.paa",
-			"\THaNServer\scripts\textures\canna2.paa",
-			"\THaNServer\scripts\textures\canna2.paa"
+			"\THaNServer\Scripts\textures\canna2.paa",
+			"\THaNServer\Scripts\textures\canna2.paa",
+			"\THaNServer\Scripts\textures\canna2.paa"
 		};
 	};
 	
@@ -178,9 +178,9 @@ class cfgVehicles
 		visibilityModifier=0.85000002;
 		hiddenSelectionsTextures[] = 
 		{
-			"\THaNServer\scripts\textures\canna2.paa",
-			"\THaNServer\scripts\textures\canna2.paa",
-			"\THaNServer\scripts\textures\canna2.paa"
+			"\THaNServer\Scripts\textures\canna2.paa",
+			"\THaNServer\Scripts\textures\canna2.paa",
+			"\THaNServer\Scripts\textures\canna2.paa"
 		};
 	};
 	class Morphine: Inventory_Base

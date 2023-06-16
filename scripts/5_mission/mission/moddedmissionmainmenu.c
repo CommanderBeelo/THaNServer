@@ -1,4 +1,3 @@
-#ifdef DAYZ_1_20
 modded class MissionMainMenu
 {
 	private ref AbstractWave m_MenuMusic;
@@ -30,4 +29,3 @@ modded class MissionMainMenu
 		}
 	}
 }
-#endif
